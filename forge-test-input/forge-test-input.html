@@ -1,0 +1,29 @@
+<link rel="import" href="../forge-shared/polymer.html">
+
+<template>
+
+    <style>
+      /* local DOM styles go here */
+      :host {
+        display: inline-block;
+      }
+    </style>
+
+    <!-- local DOM goes here -->
+    <h2>test-input [[value]]</h2>
+  </template>
+
+  <script>
+
+  Polymer({
+    is: 'test-input',
+    properties: {
+      value: {
+        type: String,
+        value: 'ciccio'
+      }
+    }
+  });
+  </script>
+
+</dom-module>
